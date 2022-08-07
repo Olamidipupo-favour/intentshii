@@ -1,6 +1,7 @@
 #!python
 
 from kivy.app import App
+from kivymd.app import MDApp
 from kivy.core.window import Window
 from kivy.clock import Clock, mainthread
 from kivy.logger import Logger
@@ -8,7 +9,7 @@ from kivy.base import platform
 from kivy.uix.label import Label
 
 
-class TestApp(App):
+class MinervasApp(MDApp):
     processing_uri = False
 
     def build(self):
